@@ -131,6 +131,7 @@ let wearGlass = (glass) => {
     ).innerHTML = `<img src="${data.virtualImg}" alt="">`;
     
     showGlassInfo(data)
+    // console.log(dataGlasses.indexOf(data))
 };
 
 let showGlassInfo = (glassData) => {
